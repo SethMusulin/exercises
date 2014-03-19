@@ -1,6 +1,6 @@
 class Palindrome
-  def string_back(word)
-    word
+  def is_palindrome?(word)
+    word = word.reverse
   end
 
 end

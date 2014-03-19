@@ -1,10 +1,11 @@
 require "palindrome"
 
 describe Palindrome do
-  it "returns a string passed in with palindrome method" do
+  it "Returns true if the single word passed to the method is a palindrome" do
     test = Palindrome.new
-    expected = "testing"
-    actual = test.string_back("testing")
+    expected = "radar"
+    actual = test.is_palindrome?("radar")
     expect(actual).to eq expected
   end
 end
+ 
